@@ -54,6 +54,14 @@
   
   </dependencies>
   
+  <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>not https repo</name>
+      <url>http://repo.maven.apache.org/</url>
+    </repository>
+</repositories>
+  
 <build>
     <plugins>
         <plugin>
